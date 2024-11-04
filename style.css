@@ -1,0 +1,42 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    animation-name: div1name;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+ }
+ .div2{
+     width: 100px;
+     height: 100px;
+     animation-name: div2name;
+     animation-duration: 3s;
+     animation-delay: 0.1s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+ }
+ @keyframes div1name {
+     0%{
+         transform: translateX(10vw) rotate(360deg);
+     }
+     50%{
+         transform: translateX(80vw) rotate(180deg) ;
+     }
+     100%{
+         transform: translateX(10vw)  rotate(360deg);
+     }
+     
+ }
+ @keyframes div2name {
+     0%{
+         transform:translateY(10vh) rotate(360deg);
+         
+     }
+     50%{
+         transform: translateY(70vh) rotate(180deg);
+     }
+     100%{
+         transform: translateY(10vh) rotate(360deg);
+     }
+ }
